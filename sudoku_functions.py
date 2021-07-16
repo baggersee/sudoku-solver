@@ -37,8 +37,7 @@ def is_valid(sudoku,row,col,guess):
     c = col//3
     for i in range(3*r,3*r+3):
         for j in range(3*c,3*c+3):
-            sub_matrix.append(sudoku[i][j])
-    #print(sub_matrix)        
+            sub_matrix.append(sudoku[i][j])        
             
     if guess in sub_matrix:
         return False
