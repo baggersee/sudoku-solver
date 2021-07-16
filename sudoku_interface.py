@@ -1,7 +1,6 @@
 from tkinter import *
 from sudoku_functions import empty_square,is_solved,is_valid,sudoku_solver
 
-# this has to go first always
 root = Tk()
 root.title('Sudoku solver!')
 
